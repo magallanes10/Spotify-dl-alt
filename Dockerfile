@@ -8,4 +8,4 @@ RUN apt-get update && apt-get install -y ffmpeg curl && \
 
 COPY . .
 
-CMD ["python", "server.py"]
+CMD ["python", "main.py"]
